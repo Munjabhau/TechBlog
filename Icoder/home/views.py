@@ -3,7 +3,7 @@ from .models import Contact
 from django.contrib import messages
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
-from blog.models import Post
+from models import Post
 
 
 def home(request):
